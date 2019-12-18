@@ -17,17 +17,31 @@ c = 19
 
 BCD = [0000,0001,0010,0011,0100,0101,0110,0111,1000,1001]
 
-# Setup my channels
+# Set bulbs and refresh variables
+
 setOn(bulb6)
+findTime()
+
+def Time(bulb6):
+	# 6th bulb time function
+	findFunctionNumber(sec % 10, bulb6)
 
 
-# find time and set first variables to time values
+def findFunctionNumber(x,bulb):
+	FunctionNumber = [ "set0()","set1()","set2()","set3()","set4()","set5()","set6()","set7()","set8()","set9()" ]
+	if(x = 0)
+		set0(bulb)
 
 def findTime():
+	# find time and set first variables to time values
 	localtime = time.localtime(time.time())
 	hour = localtime.tm_hour
 	min = localtime.tm_min
 	sec = localtime.tm_sec
+	print(localtime)
+	print("Hours:",hour)
+	print("Minutes:",min)
+	print("Seconds:",sec)
 
 
 def set0(bulb):
