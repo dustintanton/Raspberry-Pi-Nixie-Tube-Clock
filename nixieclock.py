@@ -87,7 +87,7 @@ def set0(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |   |
 		GPIO.output(bulb[2],GPIO.LOW)     #  |   |
 		GPIO.output(bulb[3],GPIO.LOW)     #  |___|
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -97,7 +97,7 @@ def set1(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  / |
 		GPIO.output(bulb[2],GPIO.LOW)     #    |
 		GPIO.output(bulb[3],GPIO.LOW)     #    |
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -108,7 +108,7 @@ def set2(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #   ___|
 		GPIO.output(bulb[2],GPIO.LOW)     #  |
 		GPIO.output(bulb[3],GPIO.LOW)     #  |___
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -119,7 +119,7 @@ def set3(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #   ___|
 		GPIO.output(bulb[2],GPIO.LOW)     #      |
 		GPIO.output(bulb[3],GPIO.LOW)     #   ___|
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -129,7 +129,7 @@ def set4(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |___|
 		GPIO.output(bulb[2],GPIO.HIGH)    #      |
 		GPIO.output(bulb[3],GPIO.LOW)     #      |
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -140,7 +140,7 @@ def set5(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |___
 		GPIO.output(bulb[2],GPIO.HIGH)    #      |
 		GPIO.output(bulb[3],GPIO.LOW)     #   ___|
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -151,7 +151,7 @@ def set6(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #  |___
 		GPIO.output(bulb[2],GPIO.HIGH)    #  |   |
 		GPIO.output(bulb[3],GPIO.LOW)     #  |___|
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -162,7 +162,7 @@ def set7(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #      |
 		GPIO.output(bulb[2],GPIO.HIGH)    #      |
 		GPIO.output(bulb[3],GPIO.LOW)     #      |
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -173,7 +173,7 @@ def set8(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |___|
 		GPIO.output(bulb[2],GPIO.LOW)     #  |   |
 		GPIO.output(bulb[3],GPIO.HIGH)    #  |___|
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
@@ -184,7 +184,7 @@ def set9(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |___|
 		GPIO.output(bulb[2],GPIO.LOW)     #      |
 		GPIO.output(bulb[3],GPIO.HIGH)    #   ___|
-		if (int(random.random() * 10) == 1)
+		if (int(random.random() * 10) == 1):
 			setOff(bulb)
 			setOn(bulb)
 
