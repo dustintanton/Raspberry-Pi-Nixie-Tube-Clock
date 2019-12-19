@@ -10,7 +10,9 @@ sec = localtime.tm_sec
 
 # 2nd digit seconds bulb
 #        a  b   c   d
+bulb5 = [4, 17, 27, 22]
 bulb6 = [5, 13, 19, 6]
+
 a = 5
 d = 6
 b = 13
@@ -28,7 +30,7 @@ def main():
 		tenSeconds = int(sec / 10)
 		findFunctionNumber(seconds, bulb6)
 		while True:
-			#findFunctionNumber(tenSeconds, bulb5)
+			findFunctionNumber(tenSeconds, bulb5)
 			findFunctionNumber(seconds, bulb6)
 			seconds = (seconds + 1) % 10
 			print("seconds ", seconds)
