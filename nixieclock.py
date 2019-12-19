@@ -32,6 +32,33 @@ def findFunctionNumber(x,bulb):
 	if(x = 0)
 		set0(bulb)
 
+	if (x = 1)
+		set1(bulb)
+
+	if (x = 2)
+		set2(bulb)
+
+	if (x = 3)
+		set3(bulb)
+
+	if (x = 4)
+		set4(bulb)
+
+	if (x = 5)
+		set5(bulb)
+
+	if (x = 6)
+		set6(bulb)
+
+	if (x = 7)
+		set7(bulb)
+
+	if (x = 8)
+		set8(bulb)
+
+	if (x = 9)
+		set9(bulb)
+
 def findTime():
 	# find time and set first variables to time values
 	localtime = time.localtime(time.time())
