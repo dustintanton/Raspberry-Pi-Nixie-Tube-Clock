@@ -18,9 +18,9 @@ def main():
     try:
         while True:
             print("What tube?")
-            tube = input()
+            tube = int(input())
             print('Turn it to what?')
-            change = input()
+            change = int(input())
             findFunctionNumber(change, findTube(tube))
 
     finally:
