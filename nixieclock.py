@@ -23,9 +23,10 @@ def main():
 	findTime()
 	# 6th bulb time function
 	seconds = sec % 10
-	findFunctionNumber(seconds++, bulb6)
+	findFunctionNumber(seconds, bulb6)
 	while True:
-		findFunctionNumber(seconds++, bulb6)
+		findFunctionNumber(seconds, bulb6)
+		seconds = seconds + 1
 		time.sleep(1)
 
 
