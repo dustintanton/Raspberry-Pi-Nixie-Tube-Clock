@@ -1,5 +1,6 @@
 import time
 import RPi.GPIO as GPIO
+import random
 GPIO.setmode(GPIO.BCM)
 
 # Time Variables Instances
