@@ -29,7 +29,7 @@ def Time(bulb6):
 
 def findFunctionNumber(x,bulb):
 	FunctionNumber = [ "set0()","set1()","set2()","set3()","set4()","set5()","set6()","set7()","set8()","set9()" ]
-	if(x = 0)
+	if(x == 0)
 		set0(bulb)
 
 	if (x = 1)
