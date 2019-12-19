@@ -13,13 +13,6 @@ sec = localtime.tm_sec
 bulb5 = [4, 17, 27, 22]
 bulb6 = [5, 13, 19, 6]
 
-a = 5
-d = 6
-b = 13
-c = 19
-
-BCD = [0000,0001,0010,0011,0100,0101,0110,0111,1000,1001]
-
 def main():
 	try:
 		# Set bulbs and refresh variables
@@ -45,7 +38,6 @@ def main():
 		GPIO.cleanup()
 
 def findFunctionNumber(x,bulb):
-	FunctionNumber = [ "set0()","set1()","set2()","set3()","set4()","set5()","set6()","set7()","set8()","set9()" ]
 	if(x == 0):
 		set0(bulb)
 
