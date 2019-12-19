@@ -35,19 +35,19 @@ def main():
 				if (tenSeconds == 6):
 					tenSeconds = 0
 				#time.sleep(1)
-				flicker(bulb6)
+				flicker()
 	finally:
 		setOff(bulb5)
 		setOff(bulb6)
 
 
-def flicker(bulb):
+def flicker():
 	time.sleep(.3)
 	x = int(random.random() * 10)
 	if (x == 1):
-		setOff(bulb)
+		setOff(bulb6)
 		time.sleep(.1)
-		setOn(bulb)
+		setOn(bulb6)
 		time.sleep(.6)
 	else:
 		time.sleep(.7)
