@@ -118,7 +118,7 @@ def set2(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #   ___|
 		GPIO.output(bulb[2],GPIO.LOW)     #  |
 		GPIO.output(bulb[3],GPIO.LOW)     #  |___
-		flicker(bulb)
+		#flicker(bulb)
 
 def set3(bulb):
 		# set address of the tube cathode '3':
