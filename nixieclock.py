@@ -34,8 +34,8 @@ def main():
 				print("tenSeconds ", tenSeconds)
 				if (tenSeconds == 6):
 					tenSeconds = 0
-			time.sleep(1)
-			#flicker()
+			#time.sleep(1)
+			flicker()
 	finally:
 		setOff(bulb5)
 		setOff(bulb6)
@@ -44,11 +44,20 @@ def main():
 def flicker():
 	time.sleep(.3)
 	x = int(random.random() * 10)
+	y = int(random.random() * 10)
 	if (x == 1):
-		setOff(bulb6)
-		time.sleep(.1)
-		setOn(bulb6)
-		time.sleep(.6)
+		if (y % 2 == 0):
+			setOff(bulb6)
+			time.sleep(.1)
+			setOn(bulb6)
+			time.sleep(.6)
+			break
+		if (y % 2 == 1):
+			setOff(bulb5)
+			time.sleep(.1)
+			setOn(bulb5)
+			time.sleep(.6)
+			break
 	else:
 		time.sleep(.7)
 
