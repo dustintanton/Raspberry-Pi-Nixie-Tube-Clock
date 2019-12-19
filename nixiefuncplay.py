@@ -48,9 +48,11 @@ def flicker():
 
 def findTube(tube):
     if (tube == 5):
-        return bulb5[]
+        bulb5
+        return bulb5
     if (tube == 6):
-        return bulb6[]
+        bulb6
+        return bulb6
 
 def findFunctionNumber(x,bulb):
     if(x == 0):
@@ -197,7 +199,7 @@ def setOff(bulb):
         GPIO.setup(bulb[1], GPIO.IN)
         GPIO.setup(bulb[2], GPIO.IN)
         GPIO.setup(bulb[3], GPIO.IN)
-
+        print("Off")
 
 def setOn(bulb):
         # Set GPIO set to outputs so display is enabled and made on the tube
@@ -206,6 +208,6 @@ def setOn(bulb):
         GPIO.setup(bulb[1], GPIO.OUT)
         GPIO.setup(bulb[2], GPIO.OUT)
         GPIO.setup(bulb[3], GPIO.OUT)
-
+        print("On")
 
 main()
