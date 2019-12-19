@@ -34,8 +34,8 @@ def main():
 				print("tenSeconds ", tenSeconds)
 				if (tenSeconds == 6):
 					tenSeconds = 0
-				#time.sleep(1)
-				flicker()
+				time.sleep(1)
+				#flicker()
 	finally:
 		setOff(bulb5)
 		setOff(bulb6)
@@ -102,7 +102,7 @@ def set0(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |   |
 		GPIO.output(bulb[2],GPIO.LOW)     #  |   |
 		GPIO.output(bulb[3],GPIO.LOW)     #  |___|
-		#flicker(bulb)
+
 
 def set1(bulb):
 		# set address of the tube cathode '1':
@@ -110,7 +110,7 @@ def set1(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  / |
 		GPIO.output(bulb[2],GPIO.LOW)     #    |
 		GPIO.output(bulb[3],GPIO.LOW)     #    |
-		#flicker(bulb)
+
 
 def set2(bulb):
 		# set address of the tube cathode '2':
@@ -119,7 +119,7 @@ def set2(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #   ___|
 		GPIO.output(bulb[2],GPIO.LOW)     #  |
 		GPIO.output(bulb[3],GPIO.LOW)     #  |___
-		#flicker(bulb)
+
 
 def set3(bulb):
 		# set address of the tube cathode '3':
@@ -128,7 +128,7 @@ def set3(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #   ___|
 		GPIO.output(bulb[2],GPIO.LOW)     #      |
 		GPIO.output(bulb[3],GPIO.LOW)     #   ___|
-		#flicker(bulb)
+
 
 def set4(bulb):
 		# set address of the tube cathode '4':
@@ -136,7 +136,7 @@ def set4(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |___|
 		GPIO.output(bulb[2],GPIO.HIGH)    #      |
 		GPIO.output(bulb[3],GPIO.LOW)     #      |
-		#flicker(bulb)
+
 
 def set5(bulb):
 		# set address of the tube cathode '5':
@@ -145,7 +145,7 @@ def set5(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |___
 		GPIO.output(bulb[2],GPIO.HIGH)    #      |
 		GPIO.output(bulb[3],GPIO.LOW)     #   ___|
-		#flicker(bulb)
+
 
 def set6(bulb):
 		# set address of the tube cathode '6':
@@ -154,7 +154,7 @@ def set6(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #  |___
 		GPIO.output(bulb[2],GPIO.HIGH)    #  |   |
 		GPIO.output(bulb[3],GPIO.LOW)     #  |___|
-		#flicker(bulb)
+
 
 def set7(bulb):
 		# set address of the tube cathode '7':
@@ -163,7 +163,7 @@ def set7(bulb):
 		GPIO.output(bulb[1],GPIO.HIGH)    #      |
 		GPIO.output(bulb[2],GPIO.HIGH)    #      |
 		GPIO.output(bulb[3],GPIO.LOW)     #      |
-		#flicker(bulb)
+
 
 def set8(bulb):
 		# set address of the tube cathode '8':
@@ -172,7 +172,7 @@ def set8(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |___|
 		GPIO.output(bulb[2],GPIO.LOW)     #  |   |
 		GPIO.output(bulb[3],GPIO.HIGH)    #  |___|
-		#flicker(bulb)
+
 
 def set9(bulb):
 		# set address of the tube cathode '9':
@@ -181,7 +181,7 @@ def set9(bulb):
 		GPIO.output(bulb[1],GPIO.LOW)     #  |___|
 		GPIO.output(bulb[2],GPIO.LOW)     #      |
 		GPIO.output(bulb[3],GPIO.HIGH)    #   ___|
-		#licker(bulb)
+
 
 def setOff(bulb):
 		# Set GPIO set to inputs so no display is made on the tube
