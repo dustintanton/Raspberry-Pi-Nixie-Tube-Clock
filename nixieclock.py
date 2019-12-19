@@ -37,7 +37,9 @@ def main():
 				#time.sleep(1)
 				flicker(bulb6)
 	finally:
-		GPIO.cleanup()
+		setOff(bulb5)
+		setOff(bulb6)
+
 
 def flicker(bulb):
 	time.sleep(.3)
