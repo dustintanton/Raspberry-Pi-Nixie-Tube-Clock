@@ -48,9 +48,9 @@ def flicker():
 
 def findTube(tube):
     if (tube == 5):
-        return bulb5
+        return bulb5[]
     if (tube == 6):
-        return bulb6
+        return bulb6[]
 
 def findFunctionNumber(x,bulb):
     if(x == 0):
