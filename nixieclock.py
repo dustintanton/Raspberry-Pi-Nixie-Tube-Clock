@@ -19,17 +19,19 @@ c = 19
 BCD = [0000,0001,0010,0011,0100,0101,0110,0111,1000,1001]
 
 def main():
-	# Set bulbs and refresh variables
-	setOn(bulb6)
-	findTime()
-	# 6th bulb time function
-	seconds = sec % 10
-	findFunctionNumber(seconds, bulb6)
-	while True:
+	try:
+		# Set bulbs and refresh variables
+		setOn(bulb6)
+		findTime()
+		# 6th bulb time function
+		seconds = sec % 10
 		findFunctionNumber(seconds, bulb6)
-		seconds = seconds + 1
-		time.sleep(1)
-
+		while True:
+			findFunctionNumber(seconds, bulb6)
+			seconds = (seconds + 1) % 10
+			time.sleep(1)
+	finally:
+		GPIO.cleanup()
 
 def findFunctionNumber(x,bulb):
 	FunctionNumber = [ "set0()","set1()","set2()","set3()","set4()","set5()","set6()","set7()","set8()","set9()" ]
