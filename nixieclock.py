@@ -35,7 +35,7 @@ def main():
 			if(seconds % 10 == 0):
 				tenSeconds = tenSeconds + 1
 				tenSeconds
-				if (tenSeconds == 7)
+				if (tenSeconds == 7):
 					tenSeconds = 0
 			time.sleep(1)
 	finally:
