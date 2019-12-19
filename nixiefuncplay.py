@@ -17,7 +17,7 @@ bulb6 = [5, 13, 19, 6]
 def main():
 	try:
         while True:
-            print('What tube?')
+        	print("What tube?")
             tube = input()
             print('Turn it to what?')
             change = input()
