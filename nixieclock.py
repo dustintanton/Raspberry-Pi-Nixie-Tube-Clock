@@ -35,7 +35,7 @@ def main():
 				if (tenSeconds == 6):
 					tenSeconds = 0
 				#time.sleep(1)
-				flicker(bulb)
+				flicker(bulb6)
 	finally:
 		GPIO.cleanup()
 
