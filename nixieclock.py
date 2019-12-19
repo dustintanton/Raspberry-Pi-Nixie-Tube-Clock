@@ -51,13 +51,11 @@ def flicker():
 			time.sleep(.1)
 			setOn(bulb6)
 			time.sleep(.6)
-			break
 		if (y % 2 == 1):
 			setOff(bulb5)
 			time.sleep(.1)
 			setOn(bulb5)
 			time.sleep(.6)
-			break
 	else:
 		time.sleep(.7)
 
