@@ -32,10 +32,10 @@ def main():
 			findFunctionNumber(seconds, bulb6)
 			seconds = (seconds + 1) % 10
 			seconds
-			if(seconds % 10 = 0):
+			if(seconds % 10 == 0):
 				tenSeconds = tenSeconds + 1
 				tenSeconds
-				if (tenSeconds = 7)
+				if (tenSeconds == 7)
 					tenSeconds = 0
 			time.sleep(1)
 	finally:
