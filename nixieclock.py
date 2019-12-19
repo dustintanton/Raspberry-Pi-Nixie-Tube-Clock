@@ -9,7 +9,8 @@ min = localtime.tm_min
 sec = localtime.tm_sec
 
 # 2nd digit seconds bulb
-bulb6 = ['a', 'b', 'c', 'd']
+#        a  b   c   d
+bulb6 = [5, 13, 19, 6]
 a = 5
 d = 6
 b = 13
