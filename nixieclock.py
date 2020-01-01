@@ -65,12 +65,12 @@ def main():
 			#time.sleep(1)
 			flicker()
 	finally:
-		setOff(bulb1)
-		setOff(bulb2)
-		setOff(bulb3)
-		setOff(bulb4)
-		setOff(bulb5)
-		setOff(bulb6)
+		set6(bulb1)
+		set9(bulb2)
+		set6(bulb3)
+		set9(bulb4)
+		set6(bulb5)
+		set9(bulb6)
 
 
 def flicker():
