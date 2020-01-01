@@ -74,32 +74,32 @@ def main():
 
 
 def flicker():
-	time.sleep(.3)
+	time.sleep(.9)
 	x = int(random.random() * 10)
 	y = int(random.random() * 100)
 	yy = int(random.random() * 100)
 	yyy = int(random.random() * 100)
 	if (True):
 		if (y < 2):
-			setOff(bulb1)
+			set0(bulb1)
 		if (y > 2):
-			setOff(bulb2)
+			set0(bulb2)
 		if (yy < 2):
-			setOff(bulb3)
+			set0(bulb3)
 		if (yy > 2):
-			setOff(bulb4)
+			set0(bulb4)
 		if (yyy < 2):
-			setOff(bulb5)
+			set0(bulb5)
 		if (yyy > 2):
-			setOff(bulb6)
+			set0(bulb6)
 		time.sleep(.1)
-		setOn(bulb1)
-		setOn(bulb2)
-		setOn(bulb3)
-		setOn(bulb4)
-		setOn(bulb5)
-		setOn(bulb6)
-		time.sleep(.6)
+		#setOn(bulb1)
+		#setOn(bulb2)
+		#setOn(bulb3)
+		#setOn(bulb4)
+		#setOn(bulb5)
+		#setOn(bulb6)
+		#time.sleep(.6)
 	else:
 		time.sleep(.7)
 
