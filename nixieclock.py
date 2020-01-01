@@ -80,17 +80,17 @@ def flicker():
 	yy = int(random.random() * 100)
 	yyy = int(random.random() * 100)
 	if (True):
-		if (y < 20):
+		if (y < 10):
 			setOff(bulb1)
-		if (y > 20):
+		if (y > 10):
 			setOff(bulb2)
-		if (yy < 20):
+		if (yy < 10):
 			setOff(bulb3)
-		if (yy > 20):
+		if (yy > 10):
 			setOff(bulb4)
-		if (yyy < 20):
+		if (yyy < 10):
 			setOff(bulb5)
-		if (yyy > 20):
+		if (yyy > 10):
 			setOff(bulb6)
 		time.sleep(.1)
 		setOn(bulb1)
