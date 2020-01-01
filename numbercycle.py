@@ -30,7 +30,7 @@ def main():
                findFunctionNumber(count, bulb5)
                findFunctionNumber(count, bulb6)
                count = count + 1
-               sleep(1)
+               time.sleep(1)
     finally:
         setOff(bulb1)
         setOff(bulb2)
