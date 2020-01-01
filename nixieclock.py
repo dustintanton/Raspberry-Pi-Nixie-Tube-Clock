@@ -50,6 +50,9 @@ def main():
 			if (hours == 10):
 				hours = 0
 				tenHours = tenHours + 1
+			if (tenMinutes == 60):
+				tenMinutes = 0
+				hours = hours + 1
 			if (minutes == 10):
 				minutes = 0
 				tenMinutes = tenMinutes + 1
@@ -63,6 +66,10 @@ def main():
 			#time.sleep(1)
 			flicker()
 	finally:
+		setOff(bulb1)
+		setOff(bulb2)
+		setOff(bulb3)
+		setOff(bulb4)
 		setOff(bulb5)
 		setOff(bulb6)
 
