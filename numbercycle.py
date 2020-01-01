@@ -8,7 +8,7 @@ localtime = time.localtime(time.time())
 hour = localtime.tm_hour
 min = localtime.tm_min
 sec = localtime.tm_sec
-b = 0
+count = 0
 
 # 2nd digit seconds bulb
 #        a  b   c   d
@@ -21,7 +21,7 @@ bulb4 = [12, 16, 20, 21]
 
 def main():
     try:
-        while b < 10:
+        while count < 10:
                findFunctionNumber(b, bulb1)
                findFunctionNumber(b, bulb2)
                findFunctionNumber(b, bulb3)
