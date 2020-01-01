@@ -105,6 +105,9 @@ def findFunctionNumber(x,bulb):
     if (x == 1):
         set9(bulb)
 
+    if (x == 10)
+        set10(bulb)
+
     if (x == 11):
         setOff(bulb)
 
@@ -211,6 +214,13 @@ def set9(bulb):
         GPIO.output(bulb[2],GPIO.LOW)     #      |
         GPIO.output(bulb[3],GPIO.HIGH)    #   ___|
 
+def set10(bulb):
+        # set address of the tube cathode '9':
+        #   ___
+        GPIO.output(bulb[0], GPIO.LOW)  # |   |
+        GPIO.output(bulb[1], GPIO.HIGH)  # |___|
+        GPIO.output(bulb[2], GPIO.LOW)  # |
+        GPIO.output(bulb[3], GPIO.HIGH)  # ___|
 
 def setOff(bulb):
         # Set GPIO set to inputs so no display is made on the tube

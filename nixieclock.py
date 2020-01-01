@@ -9,10 +9,14 @@ hour = localtime.tm_hour
 min = localtime.tm_min
 sec = localtime.tm_sec
 
-# 2nd digit seconds bulb
+#  Bulbs
 #        a  b   c   d
-bulb5 = [4, 17, 27, 22]
-bulb6 = [5, 13, 19, 6]
+bulb1 = [4, 17, 27, 22]
+bulb2 = [10, 9, 11, 5]
+bulb3 = [6, 13, 19, 26]
+bulb6 = [14, 15, 18, 23]
+bulb5 = [24, 25, 8, 7]
+bulb4 = [12, 16, 20, 21]
 
 def main():
 	try:
