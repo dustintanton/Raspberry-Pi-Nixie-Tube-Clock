@@ -89,31 +89,31 @@ def findFunctionNumber(x,bulb):
 	if(x == 0):
 		set0(bulb)
 
-	if (x == 1):
+	if (x == 9):
 		set1(bulb)
 
-	if (x == 2):
+	if (x == 8):
 		set2(bulb)
 
-	if (x == 3):
+	if (x == 7):
 		set3(bulb)
 
-	if (x == 4):
+	if (x == 6):
 		set4(bulb)
 
 	if (x == 5):
 		set5(bulb)
 
-	if (x == 6):
+	if (x == 4):
 		set6(bulb)
 
-	if (x == 7):
+	if (x == 3):
 		set7(bulb)
 
-	if (x == 8):
+	if (x == 2):
 		set8(bulb)
 
-	if (x == 9):
+	if (x == 1):
 		set9(bulb)
 
 def findTime():
