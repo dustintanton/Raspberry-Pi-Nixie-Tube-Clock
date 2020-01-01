@@ -79,7 +79,7 @@ def flicker():
 	y = int(random.random() * 10)
 	yy = int(random.random() * 10)
 	yyy = int(random.random() * 10)
-	if (x == 1):
+	if (True):
 		if (y % 2 == 0):
 			setOff(bulb1)
 		if (y % 2 == 1):
