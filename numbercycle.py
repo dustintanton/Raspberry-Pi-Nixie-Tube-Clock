@@ -29,7 +29,7 @@ def main():
                findFunctionNumber(count, bulb4)
                findFunctionNumber(count, bulb5)
                findFunctionNumber(count, bulb6)
-               count
+               print(count)
                count = count + 1
                if (count == 10):
                    count = 0
