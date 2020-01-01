@@ -230,4 +230,12 @@ def setOn(bulb):
         GPIO.setup(bulb[3], GPIO.OUT)
         print("On")
 
+setOn(bulb1)
+setOn(bulb2)
+setOn(bulb3)
+setOn(bulb4)
+setOn(bulb5)
+setOn(bulb6)
 main()
+
+
