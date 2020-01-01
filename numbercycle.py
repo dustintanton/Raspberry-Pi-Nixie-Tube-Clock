@@ -8,7 +8,7 @@ localtime = time.localtime(time.time())
 hour = localtime.tm_hour
 min = localtime.tm_min
 sec = localtime.tm_sec
-global count = 0
+count = 0
 
 # 2nd digit seconds bulb
 #        a  b   c   d
