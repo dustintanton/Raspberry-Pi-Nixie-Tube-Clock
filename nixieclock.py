@@ -82,15 +82,15 @@ def flicker():
 	if (True):
 		if (y < 2):
 			set0(bulb1)
-		if (y > 2):
+		if (y > 98):
 			set0(bulb2)
 		if (yy < 2):
 			set0(bulb3)
-		if (yy > 2):
+		if (yy > 98):
 			set0(bulb4)
 		if (yyy < 2):
 			set0(bulb5)
-		if (yyy > 2):
+		if (yyy > 98):
 			set0(bulb6)
 		time.sleep(.1)
 		#setOn(bulb1)
