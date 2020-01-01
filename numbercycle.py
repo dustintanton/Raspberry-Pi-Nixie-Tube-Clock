@@ -28,7 +28,7 @@ def main():
                findFunctionNumber(b, bulb4)
                findFunctionNumber(b, bulb5)
                findFunctionNumber(b, bulb6)
-               b = b + 1
+               count = count + 1
     finally:
         setOff(bulb1)
         setOff(bulb2)
