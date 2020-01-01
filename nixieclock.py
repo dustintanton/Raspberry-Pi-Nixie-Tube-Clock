@@ -80,18 +80,24 @@ def flicker():
 	yy = int(random.random() * 100)
 	yyy = int(random.random() * 100)
 	if (True):
-		if (y < 2):
+		if (y <= 2):
 			set0(bulb1)
-		if (y > 98):
+			print("flicker")
+		if (y >= 98):
 			set0(bulb2)
-		if (yy < 2):
+			print("flicker")
+		if (yy <= 2):
 			set0(bulb3)
-		if (yy > 98):
+			print("flicker")
+		if (yy >= 98):
 			set0(bulb4)
-		if (yyy < 2):
+			print("flicker")
+		if (yyy <= 2):
 			set0(bulb5)
-		if (yyy > 98):
+			print("flicker")
+		if (yyy >= 98):
 			set0(bulb6)
+			print("flicker")
 		time.sleep(.1)
 		#setOn(bulb1)
 		#setOn(bulb2)
