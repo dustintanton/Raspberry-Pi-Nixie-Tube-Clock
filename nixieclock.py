@@ -89,8 +89,8 @@ def flicker():
 			time.sleep(.1)
 			setOn(bulb5)
 			time.sleep(.6)
-	else:
-		# time.sleep(.7)
+	#else:
+		#time.sleep(.7)
 
 
 def findFunctionNumber(x,bulb):
