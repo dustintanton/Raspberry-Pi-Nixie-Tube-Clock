@@ -105,7 +105,7 @@ def findFunctionNumber(x,bulb):
     if (x == 1):
         set9(bulb)
 
-    if (x == 10)
+    if (x == 10):
         set10(bulb)
 
     if (x == 11):
