@@ -91,7 +91,7 @@ def flicker():
 			time.sleep(.6)
 	else:
 		# time.sleep(.7)
-		break
+
 
 def findFunctionNumber(x,bulb):
 	if(x == 0):
