@@ -22,12 +22,12 @@ bulb4 = [12, 16, 20, 21]
 def main():
     try:
         while count < 10:
-               findFunctionNumber(b, bulb1)
-               findFunctionNumber(b, bulb2)
-               findFunctionNumber(b, bulb3)
-               findFunctionNumber(b, bulb4)
-               findFunctionNumber(b, bulb5)
-               findFunctionNumber(b, bulb6)
+               findFunctionNumber(count, bulb1)
+               findFunctionNumber(count, bulb2)
+               findFunctionNumber(count, bulb3)
+               findFunctionNumber(count, bulb4)
+               findFunctionNumber(count, bulb5)
+               findFunctionNumber(count, bulb6)
                count = count + 1
     finally:
         setOff(bulb1)
