@@ -11,8 +11,12 @@ sec = localtime.tm_sec
 
 # 2nd digit seconds bulb
 #        a  b   c   d
-bulb5 = [4, 17, 27, 22]
-bulb6 = [5, 13, 19, 6]
+bulb1 = [4, 17, 27, 22]
+bulb2 = [10, 9, 11, 5]
+bulb3 = [6, 13, 19, 26]
+bulb4 = [14, 15, 18, 23]
+bulb5 = [24, 25, 8, 7]
+bulb6 = [12, 16, 20, 21]
 
 def main():
     try:
@@ -24,6 +28,10 @@ def main():
             findFunctionNumber(change, findTube(tube))
 
     finally:
+        setOff(bulb1)
+        setOff(bulb2)
+        setOff(bulb3)
+        setOff(bulb4)
         setOff(bulb5)
         setOff(bulb6)
 
@@ -47,6 +55,18 @@ def flicker():
         time.sleep(.7)
 
 def findTube(tube):
+    if (tube == 1):
+        bulb1
+        return bulb1
+    if (tube == 2):
+        bulb2
+        return bulb2
+    if (tube == 3):
+        bulb3
+        return bulb3
+    if (tube == 4):
+        bulb4
+        return bulb4
     if (tube == 5):
         bulb5
         return bulb5
@@ -58,31 +78,31 @@ def findFunctionNumber(x,bulb):
     if(x == 0):
         set0(bulb)
 
-    if (x == 1):
+    if (x == 9):
         set1(bulb)
 
-    if (x == 2):
+    if (x == 8):
         set2(bulb)
 
-    if (x == 3):
+    if (x == 7):
         set3(bulb)
 
-    if (x == 4):
+    if (x == 6):
         set4(bulb)
 
     if (x == 5):
         set5(bulb)
 
-    if (x == 6):
+    if (x == 4):
         set6(bulb)
 
-    if (x == 7):
+    if (x == 3):
         set7(bulb)
 
-    if (x == 8):
+    if (x == 2):
         set8(bulb)
 
-    if (x == 9):
+    if (x == 1):
         set9(bulb)
 
     if (x == 11):
