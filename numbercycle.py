@@ -30,7 +30,7 @@ def main():
                findFunctionNumber(count, bulb5)
                findFunctionNumber(count, bulb6)
                count = count + 1
-               if (count = 10):
+               if (count == 10):
                    count = 0
                time.sleep(1)
     finally:
