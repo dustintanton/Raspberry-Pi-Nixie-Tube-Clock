@@ -21,7 +21,7 @@ bulb4 = [12, 16, 20, 21]
 
 def main():
     try:
-        while b <10:
+        while b < 10:
                findFunctionNumber(b, bulb1)
                findFunctionNumber(b, bulb2)
                findFunctionNumber(b, bulb3)
