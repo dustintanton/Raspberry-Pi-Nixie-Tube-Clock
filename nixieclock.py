@@ -45,6 +45,16 @@ def main():
 			findFunctionNumber(seconds, bulb6)
 			seconds = (seconds + 1) % 10
 			print("seconds ", seconds)
+			if (tenHours == 13):
+				tenHours = 0
+			if (hours == 10):
+				hours = 0
+				tenHours = tenHours + 1
+			if (minutes == 10):
+				minutes = 0
+				tenMinutes = tenMinutes + 1
+			if (seconds == 00):
+				minutes = minutes + 1
 			if(seconds % 10 == 0):
 				tenSeconds = tenSeconds + 1
 				print("tenSeconds ", tenSeconds)
