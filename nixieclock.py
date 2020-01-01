@@ -56,13 +56,12 @@ def main():
 			if (minutes == 10):
 				minutes = 0
 				tenMinutes = tenMinutes + 1
-				if (tenSeconds == 00):
-					minutes = minutes + 1
 			if(seconds % 10 == 0):
 				tenSeconds = tenSeconds + 1
 				print("tenSeconds ", tenSeconds)
 				if (tenSeconds == 6):
 					tenSeconds = 0
+					minutes = minutes + 1
 			#time.sleep(1)
 			flicker()
 	finally:
