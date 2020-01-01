@@ -50,7 +50,7 @@ def main():
 			if (hours == 10):
 				hours = 0
 				tenHours = tenHours + 1
-			if (tenMinutes == 60):
+			if (tenMinutes == 6):
 				tenMinutes = 0
 				hours = hours + 1
 			if (minutes == 10):
@@ -90,7 +90,7 @@ def flicker():
 			setOn(bulb5)
 			time.sleep(.6)
 	else:
-		time.sleep(.7)
+		#time.sleep(.7)
 
 def findFunctionNumber(x,bulb):
 	if(x == 0):
