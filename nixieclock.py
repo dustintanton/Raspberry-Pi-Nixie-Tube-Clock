@@ -21,14 +21,26 @@ bulb4 = [12, 16, 20, 21]
 def main():
 	try:
 		# Set bulbs and refresh variables
+		setOn(bulb1)
+		setOn(bulb2)
+		setOn(bulb3)
+		setOn(bulb4)
 		setOn(bulb5)
 		setOn(bulb6)
 		findTime()
 		# 6th bulb time function
+		hours = hour % 10
+		tenHours = int(hour / 10)
+		minutes = min % 10
+		tenMinutes = int(min / 10)
 		seconds = sec % 10
 		tenSeconds = int(sec / 10)
-		findFunctionNumber(seconds, bulb6)
+		#findFunctionNumber(seconds, bulb6)
 		while True:
+			findFunctionNumber(tenHours, bulb1)
+			findFunctionNumber(hours, bulb2)
+			findFunctionNumber(tenMinutes, bulb3)
+			findFunctionNumber(minutes, bulb4)
 			findFunctionNumber(tenSeconds, bulb5)
 			findFunctionNumber(seconds, bulb6)
 			seconds = (seconds + 1) % 10
