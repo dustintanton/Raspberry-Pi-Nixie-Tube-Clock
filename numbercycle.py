@@ -3,12 +3,7 @@ import RPi.GPIO as GPIO
 import random
 GPIO.setmode(GPIO.BCM)
 
-# Time Variables Instances
-localtime = time.localtime(time.time())
-hour = localtime.tm_hour
-min = localtime.tm_min
-sec = localtime.tm_sec
-count = 0
+
 
 # 2nd digit seconds bulb
 #        a  b   c   d
@@ -20,6 +15,12 @@ bulb5 = [24, 25, 8, 7]
 bulb4 = [12, 16, 20, 21]
 
 def main():
+    # Time Variables Instances
+    localtime = time.localtime(time.time())
+    hour = localtime.tm_hour
+    min = localtime.tm_min
+    sec = localtime.tm_sec
+    count = 0
     try:
         while count < 10:
                findFunctionNumber(count, bulb1)
