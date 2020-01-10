@@ -258,5 +258,6 @@ def setOn(bulb):
 		GPIO.setup(bulb[2], GPIO.OUT)
 		GPIO.setup(bulb[3], GPIO.OUT)
 
-
+if (hour >= 12):
+	hour = hour % 12
 main()
