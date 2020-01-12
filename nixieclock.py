@@ -48,6 +48,7 @@ def main():
 			if (tenHours  == 1):
 				if (hours == 3):
 					tenHours = 0
+					hours = 1
 			if (hours == 10):
 				hours = 0
 				tenHours = tenHours + 1
@@ -99,7 +100,7 @@ def flicker():
 		if (yyy >= 98):
 			set0(bulb6)
 			print("flicker")
-		time.sleep(.05)
+		time.sleep(.1)
 		#setOn(bulb1)
 		#setOn(bulb2)
 		#setOn(bulb3)
@@ -108,7 +109,7 @@ def flicker():
 		#setOn(bulb6)
 		#time.sleep(.6)
 	else:
-		time.sleep(.7)
+		time.sleep(.1)
 
 
 def findFunctionNumber(x,bulb):
