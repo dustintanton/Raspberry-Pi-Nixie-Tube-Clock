@@ -46,7 +46,7 @@ def main():
 			seconds = (seconds + 1) % 10
 			print("seconds ", seconds)
 			if (tenHours  == 1):
-				if (hours == 3)
+				if (hours == 3):
 					tenHours = 0
 			if (hours == 10):
 				hours = 0
