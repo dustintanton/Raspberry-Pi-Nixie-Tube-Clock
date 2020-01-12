@@ -99,7 +99,7 @@ def flicker():
 		if (yyy >= 98):
 			set0(bulb6)
 			print("flicker")
-		time.sleep(.1)
+		time.sleep(.05)
 		#setOn(bulb1)
 		#setOn(bulb2)
 		#setOn(bulb3)
