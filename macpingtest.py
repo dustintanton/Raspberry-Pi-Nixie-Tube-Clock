@@ -60,4 +60,4 @@ def main():
             GPIO.output(dtpin, GPIO.Low)
         print("done")
         time.sleep(5)
-
+main()
