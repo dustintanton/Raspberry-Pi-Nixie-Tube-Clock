@@ -10,5 +10,5 @@ def online(hostname, mac)
     else:
         print hostname, 'is down!'
 
-online(hostname, mac)
+online(hostname, mac):
 print("done")
