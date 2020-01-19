@@ -2,7 +2,7 @@ import os
 hostname = "google.com" #example
 mac = ""
 
-def online(hostname, mac)
+def online(hostname, mac):
     response = os.system("ping -c 1 " + hostname)
     #and then check the response...
     if response == 0:
@@ -10,5 +10,5 @@ def online(hostname, mac)
     else:
         print hostname, 'is down!'
 
-online(hostname, mac):
+online(hostname, mac)
 print("done")
