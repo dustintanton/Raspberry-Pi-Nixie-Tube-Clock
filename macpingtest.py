@@ -5,6 +5,7 @@ hostname = "google.com" #example
 jmac = "00:9D:6B:01:50:11"
 dmac = "00:9D:6B:22:6A:BD"
 zmac = "00:00:00:00:00:00"
+jip = "192.168.1.65"
 
 def mac_to_ip(mac):
     cmd = 'arp -a | findstr ' + mac + ' '
@@ -14,7 +15,7 @@ def mac_to_ip(mac):
     ip = parse[1].split(' ')
     print(ip[1])
 
-def online(hostname, mac):
+def online(hostname):
     response = os.system("ping -c 1 " + hostname)
     #and then check the response...
     if response == 0:
@@ -22,5 +23,6 @@ def online(hostname, mac):
     else:
         print hostname, 'is down!'
 
-mac_to_ip(zmac)
+online(jip)
 print("done")
+
