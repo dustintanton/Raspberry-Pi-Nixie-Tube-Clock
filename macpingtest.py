@@ -65,5 +65,5 @@ def main():
         GPIO.output(27, GPIO.HIGH)
         time.sleep(.25)
         GPIO.output(27, GPIO.LOW)
-        time.sleep(4.75)
+
 main()
