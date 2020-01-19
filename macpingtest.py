@@ -4,6 +4,7 @@ import os
 hostname = "google.com" #example
 jmac = "00:9D:6B:01:50:11"
 dmac = "00:9D:6B:22:6A:BD"
+zmac = "00:00:00:00:00:00"
 
 def mac_to_ip(mac):
     cmd = 'arp -a | findstr ' + mac + ' '
@@ -21,5 +22,5 @@ def online(hostname, mac):
     else:
         print hostname, 'is down!'
 
-mac_to_ip(dmac)
+mac_to_ip(zmac)
 print("done")
