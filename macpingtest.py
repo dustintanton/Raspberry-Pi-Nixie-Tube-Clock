@@ -61,5 +61,8 @@ def main():
         else:
             GPIO.output(dtpin, GPIO.LOW)
         print("done")
-        time.sleep(5)
+        GPIO.output(27, GPIO.HIGH)
+        time.sleep(1)
+        GPIO.output(27, GPIO.LOW)
+        time.sleep(4)
 main()
