@@ -12,7 +12,7 @@ zmac = "00:00:00:00:00:00"
 jeip = "192.168.1.65"
 dtip = "192.168.1.63"
 rrip = "192.168.1.64"
-dpip = "192.168.1.62"
+dpip = "192.168.1.79"
 rpin = 2
 jpin = 3
 dpin = 4
@@ -75,7 +75,7 @@ def mac_to_ip(mac):
     print(ip[1])
 
 def online(hostname):
-    response = os.system("ping -c 1 " + hostname)
+    response = os.system("ping -c 3 " + hostname)
     #and then check the response...
     if response == 0:
         print hostname, 'is up!'
