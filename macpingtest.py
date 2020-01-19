@@ -22,6 +22,7 @@ GPIO.setup(2, GPIO.OUT)
 GPIO.setup(3, GPIO.OUT)
 GPIO.setup(4, GPIO.OUT)
 GPIO.setup(17, GPIO.OUT)
+GPIO.setup(27, GPIO.OUT)
 
 
 def mac_to_ip(mac):
