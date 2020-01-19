@@ -45,19 +45,19 @@ def main():
         if (online(rrip)):                      #Ryan
             GPIO.output(rpin, GPIO.HIGH)
         else:
-            GPIO.output(rpin, GPIO.Low)
+            GPIO.output(rpin, GPIO.LOW)
         if (online(jeip)):                      #John
             GPIO.output(jpin, GPIO.HIGH)
         else:
-            GPIO.output(jpin, GPIO.Low)
+            GPIO.output(jpin, GPIO.LOW)
         if (online(dpip)):                      #David
             GPIO.output(dpin, GPIO.HIGH)
         else:
-            GPIO.output(dpin, GPIO.Low)
+            GPIO.output(dpin, GPIO.LOW)
         if (online(dtip)):                      #Dustin
             GPIO.output(dtpin, GPIO.HIGH)
         else:
-            GPIO.output(dtpin, GPIO.Low)
+            GPIO.output(dtpin, GPIO.LOW)
         print("done")
         time.sleep(5)
 main()
