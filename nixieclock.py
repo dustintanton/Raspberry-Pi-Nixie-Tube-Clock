@@ -76,7 +76,7 @@ def main():
 
 
 def flicker():
-	time.sleep(.85)
+	time.sleep(.89)
 	x = int(random.random() * 10)
 	y = int(random.random() * 100)
 	yy = int(random.random() * 100)

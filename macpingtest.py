@@ -1,6 +1,8 @@
 import os
+from scapy.all import srp, Ether, ARP
 hostname = "google.com" #example
-mac = ""
+jmac = "00:9D:6B:01:50:11"
+dmac = "00:9D:6B:22:6A:BD"
 
 def online(hostname, mac):
     response = os.system("ping -c 1 " + hostname)
@@ -10,5 +12,5 @@ def online(hostname, mac):
     else:
         print hostname, 'is down!'
 
-online(hostname, mac)
+online(hostname, jmac)
 print("done")
