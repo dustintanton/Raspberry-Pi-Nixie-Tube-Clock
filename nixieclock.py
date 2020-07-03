@@ -27,6 +27,7 @@ def main():
 		setOn(bulb4)
 		setOn(bulb5)
 		setOn(bulb6)
+		time.sleep(5)
 		findTime()
 		# 6th bulb time function
 		hours = hour % 10
