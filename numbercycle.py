@@ -43,26 +43,6 @@ def main():
         #setOff(bulb5)
         #setOff(bulb6)
 
-
-def flicker():
-    time.sleep(.3)
-    x = int(random.random() * 10)
-    y = int(random.random() * 10)
-    if (x == 1):
-        if (y % 2 == 0):
-            setOff(bulb6)
-            time.sleep(.1)
-            setOn(bulb6)
-            time.sleep(.6)
-        if (y % 2 == 1):
-            setOff(bulb5)
-            time.sleep(.1)
-            setOn(bulb5)
-            time.sleep(.6)
-    else:
-        time.sleep(.7)
-
-
 def findTube(tube):
     if (tube == 1):
         bulb1
