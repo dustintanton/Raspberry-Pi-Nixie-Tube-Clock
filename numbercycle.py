@@ -36,12 +36,7 @@ def main():
             # count = 0
             time.sleep(.05)
     finally:
-        setOff(bulb1)
-        setOff(bulb2)
-        setOff(bulb3)
-        setOff(bulb4)
-        setOff(bulb5)
-        setOff(bulb6)
+        time.sleep(1)
 
 def findTube(tube):
     if (tube == 1):
