@@ -23,17 +23,18 @@ def main():
     count = 0
     try:
         while count < 10:
-               findFunctionNumber(count, bulb1)
-               findFunctionNumber(count, bulb2)
-               findFunctionNumber(count, bulb3)
-               findFunctionNumber(count, bulb4)
-               findFunctionNumber(count, bulb5)
-               findFunctionNumber(count, bulb6)
+            # Change random.randint(0, 9) to count if you want to cycle all numbers at the same time
+               findFunctionNumber(random.randint(0, 9), bulb1)
+               findFunctionNumber(random.randint(0, 9), bulb2)
+               findFunctionNumber(random.randint(0, 9), bulb3)
+               findFunctionNumber(random.randint(0, 9), bulb4)
+               findFunctionNumber(random.randint(0, 9), bulb5)
+               findFunctionNumber(random.randint(0, 9), bulb6)
                print(count)
                count = count + 1
                if (count == 10):
                    count = 0
-               time.sleep(1)
+               time.sleep(.2)
     finally:
         setOff(bulb1)
         setOff(bulb2)
