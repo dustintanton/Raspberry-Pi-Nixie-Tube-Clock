@@ -245,5 +245,5 @@ setOn(bulb4)
 setOn(bulb5)
 setOn(bulb6)
 main()
-
+exit()
 
