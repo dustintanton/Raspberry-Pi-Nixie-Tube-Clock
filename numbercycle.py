@@ -35,7 +35,7 @@ def main():
             # if (count == 10):
             # count = 0
             time.sleep(.05)
-    #finally:
+    finally:
         #setOff(bulb1)
         #setOff(bulb2)
         #setOff(bulb3)
