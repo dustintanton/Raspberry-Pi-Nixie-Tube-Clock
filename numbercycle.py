@@ -22,7 +22,7 @@ def main():
     sec = localtime.tm_sec
     count = 0
     try:
-        while count < 1200:
+        while count < 300:
             # Change random.randint(0, 9) to count if you want to cycle all numbers at the same time
             findFunctionNumber(random.randint(0, 99) % 10, bulb1)
             findFunctionNumber(random.randint(0, 99) % 10, bulb2)
