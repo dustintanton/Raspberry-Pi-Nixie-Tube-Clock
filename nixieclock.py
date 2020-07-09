@@ -34,8 +34,8 @@ def main():
 		tenHours = int(hour / 10)
 		minutes = min % 10
 		tenMinutes = int(min / 10)
-		seconds = (sec % 10) + 40
-		tenSeconds = int(sec / 10)
+		seconds = sec % 10
+		tenSeconds = int(sec / 10) + 1
 		#findFunctionNumber(seconds, bulb6)
 		while True:
 			findFunctionNumber(tenHours, bulb1)
