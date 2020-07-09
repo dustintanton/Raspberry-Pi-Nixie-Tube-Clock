@@ -24,12 +24,12 @@ def main():
     try:
         while count < 10:
             # Change random.randint(0, 9) to count if you want to cycle all numbers at the same time
-               findFunctionNumber(random.randint(0, 9), bulb1)
-               findFunctionNumber(random.randint(0, 9), bulb2)
-               findFunctionNumber(random.randint(0, 9), bulb3)
-               findFunctionNumber(random.randint(0, 9), bulb4)
-               findFunctionNumber(random.randint(0, 9), bulb5)
-               findFunctionNumber(random.randint(0, 9), bulb6)
+               findFunctionNumber(random.randint(0, 99) % 10, bulb1)
+               findFunctionNumber(random.randint(0, 99) % 10, bulb2)
+               findFunctionNumber(random.randint(0, 99) % 10, bulb3)
+               findFunctionNumber(random.randint(0, 99) % 10, bulb4)
+               findFunctionNumber(random.randint(0, 99) % 10, bulb5)
+               findFunctionNumber(random.randint(0, 99) % 10, bulb6)
                print(count)
                count = count + 1
                if (count == 10):
