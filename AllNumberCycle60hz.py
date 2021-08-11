@@ -22,12 +22,17 @@ def main():
     try:
         while True:
             print("Here We Go!")
+            set10(bulb1)
+            time.sleep(1)
+            set11(bulb1)
+            time.sleep(1)
+            set12(bulb1)
+            time.sleep(1)
+            set13(bulb1)
+            time.sleep(1)
+            set14(bulb1)
+            time.sleep(1)
             set15(bulb1)
-            set15(bulb2)
-            set15(bulb3)
-            set15(bulb4)
-            set15(bulb5)
-            set15(bulb6)
             time.sleep(5)
             x = 0
             while True:
