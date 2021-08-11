@@ -64,6 +64,9 @@ def main():
             set15(bulb3)
             set15(bulb4)
             time.sleep(2)
+            alloff()
+            print("alloff")
+            time.sleep(5)
             x = 0
             while True:
                 print(x)
@@ -106,12 +109,12 @@ def allon():
     setOn(bulb6)
 
 def alloff():
-    set10(bulb1)
-    set10(bulb2)
-    set10(bulb3)
-    set10(bulb4)
-    set10(bulb5)
-    set10(bulb6)
+    setOff(bulb1)
+    setOff(bulb2)
+    setOff(bulb3)
+    setOff(bulb4)
+    setOff(bulb5)
+    setOff(bulb6)
 
 def flicker():
     time.sleep(.3)
