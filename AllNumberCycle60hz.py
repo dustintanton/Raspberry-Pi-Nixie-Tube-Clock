@@ -35,7 +35,7 @@ def main():
                 t = 0
                 while t < 61:
                     alloff()
-                    time.sleep(1/60)
+                    time.sleep(.016666)
                     allon()
                     t = t + 1
                 if (x == 10):
