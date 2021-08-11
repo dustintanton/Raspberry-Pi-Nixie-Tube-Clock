@@ -48,7 +48,12 @@ def main():
                 while t < 31:
                     alloff()
                     time.sleep(.033333)
-                    allon()
+                    findFunctionNumber(x, bulb1)
+                    findFunctionNumber(x, bulb2)
+                    findFunctionNumber(x, bulb3)
+                    findFunctionNumber(x, bulb4)
+                    findFunctionNumber(x, bulb5)
+                    findFunctionNumber(x, bulb6)
                     t = t + 1
                 if (x == 10):
                     x = 0
