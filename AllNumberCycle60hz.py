@@ -22,12 +22,12 @@ def main():
     try:
         while True:
             print("Here We Go!")
-            set10(bulb1)
-            set10(bulb2)
-            set10(bulb3)
-            set10(bulb4)
-            set10(bulb5)
-            set10(bulb6)
+            set11(bulb1)
+            set12(bulb2)
+            set13(bulb3)
+            set14(bulb4)
+            set15(bulb5)
+            set1(bulb6)
             time.sleep(5)
             x = 0
             while True:
@@ -252,12 +252,52 @@ def set9(bulb):
         GPIO.output(bulb[3],GPIO.HIGH)    #   ___|
 
 def set10(bulb):
-        # set address of the tube cathode '9':
+        # set address of the tube cathode '9':Broken, doesn't do anything
         #   ___
         GPIO.output(bulb[0], GPIO.LOW)  # |   |
         GPIO.output(bulb[1], GPIO.HIGH)  # |___|
         GPIO.output(bulb[2], GPIO.LOW)  # |
         GPIO.output(bulb[3], GPIO.HIGH)  # ___|
+
+def set11(bulb):
+    # set address of the tube cathode '9': Broken, doesn't do anything
+    #   ___
+    GPIO.output(bulb[0], GPIO.HIGH)  # |   |
+    GPIO.output(bulb[1], GPIO.HIGH)  # |___|
+    GPIO.output(bulb[2], GPIO.LOW)  # |
+    GPIO.output(bulb[3], GPIO.HIGH)  # ___|
+
+def set12(bulb):
+    # set address of the tube cathode '9': Broken, doesn't do anything
+    #   ___
+    GPIO.output(bulb[0], GPIO.LOW)  # |   |
+    GPIO.output(bulb[1], GPIO.LOW)  # |___|
+    GPIO.output(bulb[2], GPIO.HIGH)  # |
+    GPIO.output(bulb[3], GPIO.HIGH)  # ___|
+
+def set13(bulb):
+    # set address of the tube cathode '9': Broken, doesn't do anything
+    #   ___
+    GPIO.output(bulb[0], GPIO.HIGH)  # |   |
+    GPIO.output(bulb[1], GPIO.LOW)  # |___|
+    GPIO.output(bulb[2], GPIO.HIGH)  # |
+    GPIO.output(bulb[3], GPIO.HIGH)  # ___|
+
+def set14(bulb):
+    # set address of the tube cathode '9': Broken, doesn't do anything
+    #   ___
+    GPIO.output(bulb[0], GPIO.LOW)  # |   |
+    GPIO.output(bulb[1], GPIO.HIGH)  # |___|
+    GPIO.output(bulb[2], GPIO.HIGH)  # |
+    GPIO.output(bulb[3], GPIO.HIGH)  # ___|
+
+def set15(bulb):
+    # set address of the tube cathode '9': Broken, doesn't do anything
+    #   ___
+    GPIO.output(bulb[0], GPIO.HIGH)  # |   |
+    GPIO.output(bulb[1], GPIO.HIGH)  # |___|
+    GPIO.output(bulb[2], GPIO.HIGH)  # |
+    GPIO.output(bulb[3], GPIO.HIGH)  # ___|
 
 def setOff(bulb):
         # Set GPIO set to inputs so no display is made on the tube
