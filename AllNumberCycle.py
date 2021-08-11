@@ -23,17 +23,17 @@ def main():
         while True:
             print("Here We Go!")
             x = 0
-                while True:
-                    findFunctionNumber(x, bulb1)
-                    findFunctionNumber(x, bulb2)
-                    findFunctionNumber(x, bulb3)
-                    findFunctionNumber(x, bulb4)
-                    findFunctionNumber(x, bulb5)
-                    findFunctionNumber(x, bulb6)
-                    x = x + 1
-                    time.sleep(2)
-                        if (x == 10):
-                            x = 0
+            while True:
+                findFunctionNumber(x, bulb1)
+                findFunctionNumber(x, bulb2)
+                findFunctionNumber(x, bulb3)
+                findFunctionNumber(x, bulb4)
+                findFunctionNumber(x, bulb5)
+                findFunctionNumber(x, bulb6)
+                x = x + 1
+                time.sleep(2)
+                    if (x == 10):
+                        x = 0
 
 
     finally:
