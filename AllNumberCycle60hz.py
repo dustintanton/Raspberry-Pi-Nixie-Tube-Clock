@@ -71,12 +71,12 @@ def allon():
     setOn(bulb6)
 
 def alloff():
-    setOff(bulb1)
-    setOff(bulb2)
-    setOff(bulb3)
-    setOff(bulb4)
-    setOff(bulb5)
-    setOff(bulb6)
+    set10(bulb1)
+    set10(bulb2)
+    set10(bulb3)
+    set10(bulb4)
+    set10(bulb5)
+    set10(bulb6)
 
 def flicker():
     time.sleep(.3)
