@@ -32,8 +32,8 @@ def main():
                 findFunctionNumber(x, bulb6)
                 x = x + 1
                 time.sleep(2)
-                    if (x == 10):
-                        x = 0
+                if (x == 10):
+                    x = 0
 
 
     finally:
