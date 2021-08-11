@@ -33,9 +33,9 @@ def main():
                 findFunctionNumber(x, bulb6)
                 x = x + 1
                 t = 0
-                while t < 61:
+                while t < 31:
                     alloff()
-                    time.sleep(.016666)
+                    time.sleep(.033333)
                     allon()
                     t = t + 1
                 if (x == 10):
