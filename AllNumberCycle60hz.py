@@ -33,7 +33,7 @@ def main():
                 findFunctionNumber(x, bulb6)
                 x = x + 1
                 t = 0
-                for (t < 61):
+                while t < 61:
                     alloff()
                     time.sleep(1/60)
                     allon()
