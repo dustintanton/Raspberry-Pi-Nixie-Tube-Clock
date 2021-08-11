@@ -24,6 +24,7 @@ def main():
             print("Here We Go!")
             x = 0
             while True:
+                print(x)
                 findFunctionNumber(x, bulb1)
                 findFunctionNumber(x, bulb2)
                 findFunctionNumber(x, bulb3)
