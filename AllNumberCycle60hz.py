@@ -67,6 +67,9 @@ def main():
             alloff()
             print("alloff")
             time.sleep(5)
+            allon()
+            print("allon")
+            time.sleep(5)
             x = 0
             while True:
                 print(x)
